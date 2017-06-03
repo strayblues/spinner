@@ -1,0 +1,85 @@
+.spin {
+  padding: 0.5rem;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+
+}
+
+@-webkit-keyframes rotation-l {
+	from {
+		-webkit-transform: rotate(359deg);
+	}
+	to {
+		-webkit-transform: rotate(0deg);
+	}
+}
+
+.spin-l {
+	-webkit-animation: rotation-l 0.4s infinite linear;
+}
+
+@-webkit-keyframes rotation-r {
+	from {
+		-webkit-transform: rotate(0deg);
+	}
+	to {
+		-webkit-transform: rotate(359deg);
+	}
+}
+
+.spin-r {
+	-webkit-animation: rotation-r 0.4s infinite linear;
+}
+
+.center {
+  margin: auto;
+  margin-top: 1rem;
+  width: 40%;
+  padding: 3rem;
+  text-align: center;
+  border: 1px solid #ccc;
+  background-color: #f2f2f2;
+}
+
+img {
+  display: block;
+  margin: auto;
+  text-align: center;
+  width: 80%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h2, p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+button {
+  margin-top: 2.5rem;
+  border-radius: 4px;
+  font-size: 10pt;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+.fa {
+  margin: 0.5rem;
+  color: #888;
+}
+
+.fa:hover {
+  color: black;
+}
+
+.icon-holder {
+  margin-left: 0.25rem;
+  padding-top: 2.25rem;
+  color: #e8aecd;
+}
