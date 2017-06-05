@@ -3,7 +3,6 @@
   width: 90%;
   margin: auto;
   text-align: center;
-
 }
 
 @-webkit-keyframes rotation-l {
@@ -15,8 +14,11 @@
 	}
 }
 
-.spin-l {
-	-webkit-animation: rotation-l 0.4s infinite linear;
+.spin-l1 {
+	-webkit-animation: rotation-l 0.7s infinite linear;
+}
+.spin-l2 {
+	-webkit-animation: rotation-l 0.3s infinite linear;
 }
 
 @-webkit-keyframes rotation-r {
@@ -28,8 +30,11 @@
 	}
 }
 
-.spin-r {
-	-webkit-animation: rotation-r 0.4s infinite linear;
+.spin-r1 {
+	-webkit-animation: rotation-r 0.7s infinite linear;
+}
+.spin-r2 {
+	-webkit-animation: rotation-r 0.3s infinite linear;
 }
 
 .center {
@@ -119,4 +124,19 @@ a {
 .icon-holder {
   margin-left: 0.25rem;
   padding-top: 2rem;
+}
+
+@media only screen and (min-width: 760px) {
+  body {
+    background-color: lightblue;
+  }
+  .spin {
+    width: 40%;
+  }
+  .center {
+    width: 45%;
+  }
+  img {
+    width: 100%;
+  }
 }
